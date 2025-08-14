@@ -14,12 +14,18 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Level Up Your{" "}
-                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                  AI Skills
+              <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight tracking-tight">
+                <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
+                  Master AI
                 </span>{" "}
-                in 5 Minutes a Week
+                <span className="relative">
+                  Like a Game
+                  <div className="absolute -top-2 -right-8 text-lg font-normal text-accent animate-bounce">🚀</div>
+                </span>
+                <br />
+                <span className="text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-muted-foreground to-foreground bg-clip-text text-transparent">
+                  5 Minutes • Weekly Quests • Real Results
+                </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Boost your team's AI skills, stay ahead of industry changes, and make smarter tool choices—fast. 
