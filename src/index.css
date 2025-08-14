@@ -75,6 +75,16 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
+  /* Custom animations for AI Quest Arena */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
