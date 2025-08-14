@@ -15,10 +15,10 @@
     --popover: 240 8% 8%;
     --popover-foreground: 0 0% 98%;
 
-    /* Gaming-inspired primary with purple/blue gradient */
-    --primary: 258 89% 66%;
+    /* Gaming-inspired primary with orange */
+    --primary: 25 95% 53%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 258 89% 76%;
+    --primary-glow: 25 95% 63%;
 
     /* Enterprise-friendly secondary */
     --secondary: 240 6% 15%;
@@ -27,8 +27,8 @@
     --muted: 240 6% 12%;
     --muted-foreground: 240 5% 65%;
 
-    /* Gaming accent - electric blue */
-    --accent: 200 100% 60%;
+    /* Gaming accent - bright yellow */
+    --accent: 48 100% 67%;
     --accent-foreground: 240 10% 4%;
 
     /* Success color for achievements */
@@ -44,7 +44,7 @@
 
     --border: 240 6% 20%;
     --input: 240 6% 15%;
-    --ring: 258 89% 66%;
+    --ring: 25 95% 53%;
 
     --radius: 0.75rem;
 
