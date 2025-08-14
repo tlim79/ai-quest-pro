@@ -29,7 +29,7 @@ const Testimonials = () => {
     },
     {
       company: "QuantumCore Technologies",
-      quote: "Best tool for understanding when to use which model.",
+      quote: "Best tool for understanding when to use which model. One area to improve would be to allow more features to be trialled during free period.",
       industry: "Technology",
       rating: 4.5
     },
