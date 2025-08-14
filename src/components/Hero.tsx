@@ -16,15 +16,15 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-extrabold leading-tight tracking-tight">
                 <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                  Master AI
+                  Transform Your Team
                 </span>{" "}
                 <span className="relative">
-                  Like a Game
+                  With AI Skills
                   <div className="absolute -top-2 -right-8 text-lg font-normal text-accent animate-bounce">⚡</div>
                 </span>
                 <br />
                 <span className="text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-muted-foreground to-foreground bg-clip-text text-transparent">
-                  5 Minutes • Weekly Quests • Real Results
+                  5 Minutes • Weekly Training • Measurable Results
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
