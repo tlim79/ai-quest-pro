@@ -5,7 +5,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       company: "FinTechPro Pte Ltd",
-      quote: "Our analysts picked up prompt engineering tips in days, not months.",
+      quote: "Our analysts picked up prompt engineering tips in days, not months. Really kilat!",
       industry: "Finance",
       rating: 5
     },
