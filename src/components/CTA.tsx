@@ -23,12 +23,12 @@ const CTA = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/signup">
+              <a href="https://preview--llm-quest-arena.lovable.app/" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity group">
                   Try for Free - 1 Month
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
-              </Link>
+              </a>
               <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/5">
                 Contact Sales
               </Button>

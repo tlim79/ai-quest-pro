@@ -22,12 +22,12 @@ const Navbar = () => {
           <Button variant="ghost" className="text-muted-foreground hover:text-foreground">
             Pricing
           </Button>
-          <Link to="/signup">
+          <a href="https://preview--llm-quest-arena.lovable.app/" target="_blank" rel="noopener noreferrer">
             <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity">
               <Sparkles className="w-4 h-4 mr-2" />
               Try for Free
             </Button>
-          </Link>
+          </a>
         </div>
       </div>
     </nav>
