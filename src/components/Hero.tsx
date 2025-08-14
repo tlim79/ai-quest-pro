@@ -20,7 +20,7 @@ const Hero = () => {
                 </span>{" "}
                 <span className="relative">
                   Like a Game
-                  <div className="absolute -top-2 -right-8 text-lg font-normal text-accent animate-bounce">🚀</div>
+                  <div className="absolute -top-2 -right-8 text-lg font-normal text-accent animate-bounce">⚡</div>
                 </span>
                 <br />
                 <span className="text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-muted-foreground to-foreground bg-clip-text text-transparent">
