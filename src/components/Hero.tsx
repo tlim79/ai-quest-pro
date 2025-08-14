@@ -22,8 +22,8 @@ const Hero = () => {
                 in 5 Minutes a Week
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                The fun way to stay ahead in AI. Master LLM models through gamified quests, 
-                side-by-side battles, and bite-sized weekly challenges.
+                Boost your team's AI skills, stay ahead of industry changes, and make smarter tool choices—fast. 
+                Designed for enterprise teams who want to stay ahead in AI with minimal time commitment.
               </p>
             </div>
 
@@ -34,12 +34,24 @@ const Hero = () => {
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/5">
-                Watch Demo
+              <Button size="lg" variant="secondary" className="bg-secondary/80 text-secondary-foreground hover:bg-secondary border border-primary/10">
+                See It in Action
               </Button>
             </div>
 
-            <div className="flex items-center space-x-8 pt-4">
+            {/* Trusted By Section */}
+            <div className="pt-6 border-t border-border/20">
+              <p className="text-sm text-muted-foreground mb-4">Trusted by leading enterprises</p>
+              <div className="flex items-center space-x-8 opacity-60">
+                <div className="text-lg font-semibold text-muted-foreground">Microsoft</div>
+                <div className="text-lg font-semibold text-muted-foreground">Google</div>
+                <div className="text-lg font-semibold text-muted-foreground">Amazon</div>
+                <div className="text-lg font-semibold text-muted-foreground">Meta</div>
+                <div className="text-lg font-semibold text-muted-foreground">Tesla</div>
+              </div>
+            </div>
+
+            <div className="flex items-center space-x-8 pt-6">
               <div className="flex items-center space-x-2">
                 <Trophy className="w-5 h-5 text-warning" />
                 <span className="text-sm text-muted-foreground">Gamified Learning</span>
@@ -68,13 +80,19 @@ const Hero = () => {
             <div className="absolute -top-4 -right-4 bg-card border border-border rounded-lg p-3 shadow-lg animate-float">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-success rounded-full animate-pulse" />
-                <span className="text-sm font-medium">Quest Complete!</span>
+                <span className="text-sm font-medium">5-min Quest Complete!</span>
               </div>
             </div>
             <div className="absolute -bottom-4 -left-4 bg-card border border-border rounded-lg p-3 shadow-lg animate-float" style={{animationDelay: '1s'}}>
               <div className="flex items-center space-x-2">
                 <Trophy className="w-4 h-4 text-warning" />
-                <span className="text-sm font-medium">+50 XP Earned</span>
+                <span className="text-sm font-medium">Team Skills +15%</span>
+              </div>
+            </div>
+            {/* Weekly Quest Ticker */}
+            <div className="absolute top-1/2 -left-8 bg-primary/10 border border-primary/20 rounded-lg p-2 shadow-lg animate-float" style={{animationDelay: '2s'}}>
+              <div className="text-xs text-primary font-medium">
+                This Week: GPT-4 vs Claude Battle
               </div>
             </div>
           </div>
